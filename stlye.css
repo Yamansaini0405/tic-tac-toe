@@ -54,6 +54,12 @@ body {
 .msg-container {
     height: 20vmin;
 }
+
+@media (max-width : 370px) {
+    .msg-container {
+        margin-top: 60px;
+    }
+}
 .hide{
     display: none;
 }
@@ -64,4 +70,21 @@ body {
     color: #fff;
     border-radius: 1.25rem;
     border: none;
+}
+
+@media (max-width : 370px) {
+    .main {
+        margin-top: 60px;
+    }
+    #new-btn {
+        margin-top: 40px;
+    }
+    .game {
+        margin-top: -100px;
+        height: fit-content;
+    }
+    .container {
+        height: 50vh;
+    }
+
 }
