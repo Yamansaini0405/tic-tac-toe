@@ -55,7 +55,7 @@ body {
     height: 20vmin;
 }
 
-@media (max-width : 370px) {
+@media (max-width : 415px) {
     .msg-container {
         margin-top: 60px;
     }
@@ -72,7 +72,7 @@ body {
     border: none;
 }
 
-@media (max-width : 370px) {
+@media (max-width : 415px) {
     .main {
         margin-top: 60px;
     }
