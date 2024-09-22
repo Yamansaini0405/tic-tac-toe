@@ -58,7 +58,7 @@ const disabledBtn = () => {
     }
 }
 const showWinner = (winner) => {
-    msg.innerText =`Congratulation, Winner is Player${winner}`;
+    msg.innerText =`Congratulation, Player${winner} wins`;
     msgConatiner.classList.remove("hide");
 }
 
