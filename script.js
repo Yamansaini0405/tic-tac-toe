@@ -38,6 +38,7 @@ resetBtn.addEventListener("click", ()=> {
         box.innerText = "";
         box.disabled = false;
     })
+    msgConatiner.classList.add("hide");
     
 })
 
